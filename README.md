@@ -2,6 +2,12 @@
 
 A simple Go library for handling forward-only database migrations, intended for use in embedded scenarios (e.g. sqlite).
 
+## Install
+
+```shell
+$ go get -u github.com/jaz303/migrate
+```
+
 ## How to use
 
 First, define your migrations as an array of callbacks:
